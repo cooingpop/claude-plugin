@@ -1,0 +1,8 @@
+{
+  "name": "jira-reporter",
+  "version": "1.0.0",
+  "description": "Jira 보고서 생성 플러그인 - 담당자별/기간별/상태별/유형별/영역별 보고서",
+  "author": {
+    "name": "박준영"
+  }
+}
