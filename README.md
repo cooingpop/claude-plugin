@@ -236,8 +236,7 @@ etc: 기타 변경사항
 ### PR 체크리스트
 
 **새 플러그인 추가 시:**
-- [ ] `{plugin}/.claude-plugin/plugin.json` 생성
-- [ ] `{plugin}/skills/{skill}/SKILL.md` 생성
+- [ ] `{plugin}/.claude-plugin/plugin.json` 생성 - [ ] `{plugin}/skills/{skill}/SKILL.md` 생성
 - [ ] `{plugin}/README.md` 생성
 - [ ] `.claude-plugin/marketplace.json`에 플러그인 추가
 - [ ] ROOT `README.md` 제공 플러그인 테이블에 추가
