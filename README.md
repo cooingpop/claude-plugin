@@ -4,7 +4,7 @@ Claude Code 플러그인 마켓플레이스입니다.
 
 | 항목 | 내용 |
 |------|------|
-| 마켓플레이스명 | `jira-tools-marketplace` |
+| 마켓플레이스명 | `claude-tools-marketplace` |
 | 저장소 | `cooingpop/claude-plugin` |
 
 ---
@@ -20,7 +20,7 @@ Claude Code 플러그인 마켓플레이스입니다.
 ### Step 2: 플러그인 설치
 
 ```bash
-/plugin install {플러그인명}@jira-tools-marketplace --scope {스코프}
+/plugin install {플러그인명}@claude-tools-marketplace --scope {스코프}
 ```
 
 ### 설치 스코프
@@ -230,6 +230,7 @@ feat({plugin}): 새 스킬 추가 - {스킬명}
 fix({plugin}): 버그 수정 - {내용}
 docs: README 업데이트
 docs({plugin}): 사용 가이드 업데이트
+etc: 기타 변경사항
 ```
 
 ### PR 체크리스트
@@ -252,10 +253,10 @@ docs({plugin}): 사용 가이드 업데이트
 ```bash
 # 프로젝트 폴더에서
 /plugin marketplace add ./
-/plugin install {plugin-name}@jira-tools-marketplace --scope local
+/plugin install {plugin-name}@claude-tools-marketplace --scope local
 
 # 테스트 후 제거
-/plugin uninstall {plugin-name}@jira-tools-marketplace
+/plugin uninstall {plugin-name}@claude-tools-marketplace
 ```
 
 ---
