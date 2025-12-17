@@ -1,6 +1,6 @@
 {
-  "name": "jira-tools-marketplace",
-  "description": "Jira 업무 자동화 플러그인 마켓플레이스",
+  "name": "claude-tools-marketplace",
+  "description": "Claude Code 플러그인 마켓플레이스",
   "owner": {
     "name": "Backend Team"
   },
