@@ -1,0 +1,15 @@
+{
+  "name": "jira-tools-marketplace",
+  "description": "Jira 업무 자동화 플러그인 마켓플레이스",
+  "owner": {
+    "name": "Backend Team"
+  },
+  "plugins": [
+    {
+      "name": "jira-reporter",
+      "source": "./jira-reporter",
+      "description": "Jira 보고서 생성 플러그인 - 담당자별/기간별/상태별/유형별/영역별 보고서",
+      "version": "1.0.0"
+    }
+  ]
+}
