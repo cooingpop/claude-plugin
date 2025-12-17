@@ -2,7 +2,7 @@
   "name": "claude-tools-marketplace",
   "description": "Claude Code 플러그인 마켓플레이스",
   "owner": {
-    "name": "Backend Team"
+    "name": "박준영"
   },
   "plugins": [
     {
