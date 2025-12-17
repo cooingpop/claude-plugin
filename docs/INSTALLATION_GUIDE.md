@@ -9,7 +9,7 @@ Claude Code에서 Jira 보고서를 자동 생성하는 플러그인입니다.
 | 항목 | 내용 |
 |------|------|
 | 플러그인명 | `jira-reporter` |
-| 마켓플레이스 | `jira-tools-marketplace` |
+| 마켓플레이스 | `claude-tools-marketplace` |
 | 저장소 | `cooingpop/claude-plugin` |
 | 버전 | 1.0.0 |
 
@@ -32,7 +32,7 @@ Claude Code에서 Jira 보고서를 자동 생성하는 플러그인입니다.
 **모든 프로젝트**에서 사용 가능합니다.
 
 ```bash
-/plugin install jira-reporter@jira-tools-marketplace --scope user
+/plugin install jira-reporter@claude-tools-marketplace --scope user
 ```
 
 | 항목 | 내용 |
@@ -46,7 +46,7 @@ Claude Code에서 Jira 보고서를 자동 생성하는 플러그인입니다.
 **이 프로젝트의 모든 협업자**가 사용 가능합니다. (Git에 포함됨)
 
 ```bash
-/plugin install jira-reporter@jira-tools-marketplace --scope project
+/plugin install jira-reporter@claude-tools-marketplace --scope project
 ```
 
 | 항목 | 내용 |
@@ -60,7 +60,7 @@ Claude Code에서 Jira 보고서를 자동 생성하는 플러그인입니다.
 **이 프로젝트에서 나만** 사용합니다. (Git에 포함 안 됨)
 
 ```bash
-/plugin install jira-reporter@jira-tools-marketplace --scope local
+/plugin install jira-reporter@claude-tools-marketplace --scope local
 ```
 
 | 항목 | 내용 |
@@ -161,7 +161,7 @@ messaging: 최지훈,정수연
 ## 플러그인 제거
 
 ```bash
-/plugin uninstall jira-reporter@jira-tools-marketplace
+/plugin uninstall jira-reporter@claude-tools-marketplace
 ```
 
 ---
@@ -169,8 +169,8 @@ messaging: 최지훈,정수연
 ## 플러그인 업데이트
 
 ```bash
-/plugin uninstall jira-reporter@jira-tools-marketplace
-/plugin install jira-reporter@jira-tools-marketplace --scope user
+/plugin uninstall jira-reporter@claude-tools-marketplace
+/plugin install jira-reporter@claude-tools-marketplace --scope user
 ```
 
 ---
